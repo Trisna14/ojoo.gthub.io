@@ -1,0 +1,81 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+/* font-family: 'Redressed', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+/* font-family: 'Redressed', cursive; */
+
+/* css import */
+/* side-options */
+@import url("side-options.css");
+/* main page | home */
+@import url("home/main-page.css");
+@import url("minimize/minimize.css");
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+* {
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {text-decoration: none;color: black;display: inline-block;}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* full-wrapper */
+.full-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.full-wrapper .eid-1 {flex: 1;}
+.full-wrapper .eid-2 {flex: 2;}
+.full-wrapper .eid-3 {flex: 3;}
+.full-wrapper .eid-4 {flex: 4;}
+
+/* wrapper content */
+.warpper-content {
+    /* border: 1px solid red; */
+    min-height: 100vh;
+    position: relative;
+}
+
+.warpper-content h3 {
+    text-align: center;
+    margin-top: 70px;
+    padding: 20px 0;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: lighter;
+    /* font-weight: 600; */
+    color: rgb(128, 130, 131);
+    /* text-transform: uppercase; */
+    font-family: 'Oswald', sans-serif;
+    /* border: 1px solid blue; */
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(250, 254, 255);
+    }
+
+    .full-wrapper {
+        display: block;
+        min-height: 100vh;
+    }
+
+    .warpper-content h3 {
+        margin-top: 0;
+    }
+  }

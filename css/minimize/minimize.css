@@ -1,0 +1,14 @@
+/* * {
+    border: 1px solid red;
+} */
+
+
+@media only screen and (max-width: 600px) {
+
+    .minimize-text-justify {
+        text-align: justify;
+        /* border: 1px solid red !important; */
+    }
+    
+
+}
